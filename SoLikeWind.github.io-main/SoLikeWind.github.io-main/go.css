@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {  
+    height: 55px;
+    display: flex;
+    background-color: rgb(124, 202, 148)  ;
+    overflow: hidden;  
+    position: fixed; /* 固定位置 */  
+    top: 0; /* 导航栏位于页面顶部 */  
+    width: 100%; /* 导航栏宽度为100% */  
+    opacity: 1;
+    border-radius: 5px;
+}  
+
+.nav1 {
+    width: 500px;
+}
+.nav2 {
+    display: flex;
+    justify-content: center; /* 水平居中 */  
+  align-items: center; /* 垂直居中 */  
+}
+
+/* 设置导航链接的样式 */  
+.navbar a {  
+    float: left;  
+    display: block;  
+    color: #4f4d4d;  
+    text-align: center;  
+    padding: 14px 16px;  
+    text-decoration: none;  
+    font-size: 20px;
+    font-family: 'KaiTi';
+}  
+
+/* 改变鼠标悬停在链接上的背景颜色 */  
+.navbar a:hover {  
+    background-color: rgb(56, 145, 126);  
+    color: rgb(243, 239, 239);  
+    border-radius: 5px;
+}  
+
+
+/* 开始中间 */
+.sta1 {
+    margin-top: 55px;
+    height: 600px;
+    width: 100%;
+}
